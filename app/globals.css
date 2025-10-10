@@ -1,6 +1,4 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -14,6 +12,11 @@
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
   }
+}
+
+@theme {
+  --bg-radial: radial-gradient(var(--tw-gradient-stops));
+  --bg-conic: conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops));
 }
 
 body {
