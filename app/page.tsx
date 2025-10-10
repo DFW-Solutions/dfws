@@ -38,7 +38,6 @@ export default function Home() {
           rel="noopener noreferrer"
         >Email us</a> and we'll get back to you within one business day.
       </div>
-      <p className="mt-2 italic color-gray-500">Stay tuned for <strong>SlipStream Scheduler</strong>&mdash;our upcoming booking platform for small marinas!</p>
     </main>
   </>)
 }
