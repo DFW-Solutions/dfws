@@ -26,7 +26,6 @@ export default function Home() {
         <ul className="w-full list-disc list-inside space-y-3 text-gray-700 dark:text-gray-300">
           <li>Responsive marketing sites</li>
           <li>Member portals & dashboards</li>
-          <li>Automation and scheduling tools</li>
           <li>Ongoing support & maintenance</li>
         </ul>
       </div>
